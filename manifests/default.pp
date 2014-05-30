@@ -11,12 +11,6 @@ package { $default_packages :
 
 include project
 
-include project::composer
 include project::web
-include project::php5
-include project::phpunit
-include project::pear
-include project::phing
 include project::sql
-include project::mongodb
 include project::jenkins
